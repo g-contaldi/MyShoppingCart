@@ -1,4 +1,4 @@
-package it.dstech.test;
+package it.dstech.main;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -85,7 +85,7 @@ public class TestClass {
 								break;
 
 							case 2:
-								System.out.println("Vuoi procedere all'acuisto? s/n");
+								System.out.println("Vuoi procedere all'acquisto? s/n");
 								String c = in.nextLine();
 								if (c.equals("s".toLowerCase())) {
 									System.out.println("Verrai reindirizzato al sito per il pagamento......");
